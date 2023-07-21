@@ -18,12 +18,12 @@ menuItems.forEach(function(menuItem) {
 });
 
 
-
 var images = document.querySelectorAll('.scrollable-image');
 
 images.forEach(function(image) {
   image.addEventListener('mouseenter', function() {
-    image.style.transform = 'translateY(-80%)';
+    var imageHeight = image.clientHeight;
+    image.style.transform = `translateY(-${imageHeight - 360}px)`;
   });
 
   image.addEventListener('mouseleave', function() {
