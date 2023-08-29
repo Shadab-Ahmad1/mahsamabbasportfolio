@@ -1193,6 +1193,7 @@ position: relative;
         font-size: 15px;
     }
     #swiper-whole-container{
-        height: calc(100vh - 480px);
+        height: fit-content;
+        padding-bottom: 4rem;
     }
 }
