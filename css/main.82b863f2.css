@@ -1002,3 +1002,147 @@ footer h3 {
 }
 
 /*# sourceMappingURL=main.82b863f2.css.map*/
+/* last section*/
+.elements-widgets
+{
+    
+    position: relative;
+    width: 100%;
+    
+}
+.elements-populated
+{
+    
+}
+.element-container
+{
+    /* display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    flex-direction: column; */
+}
+.element-container p{
+    color: #34353F;
+    font-family: "Avenir", Sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    padding: 6vw 7vw 0vw 7vw;
+}
+.elements-widgets-container
+{
+    padding: 4vw 0vw 0vw 0vw;
+}
+.elements-swiper
+{
+    position: relative;
+}
+
+.element-widgets-img
+{
+    width: 82%;
+    margin-left: -40px;
+  
+    
+}
+ .mySwiper
+{
+    width: 50%;
+   
+}
+.swiper
+{
+    width: 50%;
+}
+
+.element-major-container
+{
+    display: flex;
+   
+}
+
+
+/* carousel */
+
+.swiper-slide
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.text{
+    color: var(--e-global-color-secondary );
+    font-family: "Avenir", Sans-serif;
+    font-size: 29.5px;
+    font-weight: 500;
+    font-style: normal;
+   
+    text-align: left;
+    width: 100%;
+}
+.testimonial-1
+{
+    color: var(--e-global-color-secondary );
+    font-family: "Avenir", Sans-serif;
+    font-size: 1.7vw;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+.other-testimonial
+{
+margin-top: 20%;
+text-align: left;
+width: 100%;
+}
+.swiper-button-next
+{
+    background-color: #FF7500;
+    width: 35px;
+    border-radius: 20px;
+
+
+}
+.swiper-button-prev
+{
+    background-color: #FF7500;
+    width: 35px;
+    border-radius: 20px;
+    
+
+}
+#next-button
+{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    padding: 8px 12px;
+    width: auto;
+    height: auto;
+
+}
+.swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+    content: 'next';
+    font-size: 14px;
+    color: white;
+  }
+#prev-button
+{
+    position: absolute;
+top: 35px;
+padding: 8px 12px;
+width: auto;
+height: auto;
+left: 920px;
+   
+}
+.swiper-button-prev::after, .swiper-rtl .swiper-button-prev::after {
+    content: 'previous';
+    font-size: 14px;
+    color: white;
+  }
+
+#swiper-whole-container
+{
+    position: relative;
+}
