@@ -1152,6 +1152,9 @@ position: relative;
 {
     position: relative;
 }
+.swiper-wrapper{
+    cursor: grab;
+}
 
 @media (max-width:750px) {
     .element-major-container{
